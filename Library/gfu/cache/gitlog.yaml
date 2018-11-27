@@ -1,0 +1,2566 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-11-26T22:14:57.881-08:00
+  initializedAtString: 2018-11-26T21:57:50.440-08:00
+  log:
+  - commitID: abbd62c5eb44e951dfff41884cf0847f43d4a382
+    mergeA: 
+    mergeB: 
+    authorName: Yi-Lai-SJSU
+    authorEmail: yi.lai@sjsu.edu
+    commitEmail: yi.lai@sjsu.edu
+    commitName: Yi-Lai-SJSU
+    summary: tester
+    description: tester
+    timeString: 2018-11-26T22:14:57.000-08:00
+    commitTimeString: 2018-11-26T22:14:57.000-08:00
+    changes:
+    - path: .collabignore
+      fullPath: /Users/labuser/space-shooter-monday/.collabignore
+      projectPath: .collabignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/ProjectSettings.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/ProjectSettings.asset
+      projectPath: ProjectSettings/ProjectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 49771b5b6a9dca0b89384e706e6c386d35fedf38
+    mergeA: 
+    mergeB: 
+    authorName: Yi-Lai-SJSU
+    authorEmail: yi.lai@sjsu.edu
+    commitEmail: yi.lai@sjsu.edu
+    commitName: Yi-Lai-SJSU
+    summary: with two players
+    description: 'with two players
+
+
+      add two players'
+    timeString: 2018-11-26T22:12:04.000-08:00
+    commitTimeString: 2018-11-26T22:12:04.000-08:00
+    changes:
+    - path: Assets/Audio.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio.meta
+      projectPath: Assets/Audio.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/explosion_asteroid.wav
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/explosion_asteroid.wav
+      projectPath: Assets/Audio/explosion_asteroid.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/explosion_asteroid.wav.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/explosion_asteroid.wav.meta
+      projectPath: Assets/Audio/explosion_asteroid.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/explosion_enemy.wav
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/explosion_enemy.wav
+      projectPath: Assets/Audio/explosion_enemy.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/explosion_enemy.wav.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/explosion_enemy.wav.meta
+      projectPath: Assets/Audio/explosion_enemy.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/explosion_player.wav
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/explosion_player.wav
+      projectPath: Assets/Audio/explosion_player.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/explosion_player.wav.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/explosion_player.wav.meta
+      projectPath: Assets/Audio/explosion_player.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/music_background.wav
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/music_background.wav
+      projectPath: Assets/Audio/music_background.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/music_background.wav.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/music_background.wav.meta
+      projectPath: Assets/Audio/music_background.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/weapon_enemy.wav
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/weapon_enemy.wav
+      projectPath: Assets/Audio/weapon_enemy.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/weapon_enemy.wav.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/weapon_enemy.wav.meta
+      projectPath: Assets/Audio/weapon_enemy.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/weapon_player.wav
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/weapon_player.wav
+      projectPath: Assets/Audio/weapon_player.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/weapon_player.wav.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Audio/weapon_player.wav.meta
+      projectPath: Assets/Audio/weapon_player.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts.meta
+      projectPath: Assets/Fonts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/OpenSans.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts/OpenSans.meta
+      projectPath: Assets/Fonts/OpenSans.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/OpenSans/License!.txt
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts/OpenSans/License!.txt
+      projectPath: Assets/Fonts/OpenSans/License!.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/OpenSans/License!.txt.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts/OpenSans/License!.txt.meta
+      projectPath: Assets/Fonts/OpenSans/License!.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/OpenSans/OpenSansBold.ttf
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts/OpenSans/OpenSansBold.ttf
+      projectPath: Assets/Fonts/OpenSans/OpenSansBold.ttf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/OpenSans/OpenSansBold.ttf.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts/OpenSans/OpenSansBold.ttf.meta
+      projectPath: Assets/Fonts/OpenSans/OpenSansBold.ttf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/OpenSans/OpenSansLight.ttf
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts/OpenSans/OpenSansLight.ttf
+      projectPath: Assets/Fonts/OpenSans/OpenSansLight.ttf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/OpenSans/OpenSansLight.ttf.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts/OpenSans/OpenSansLight.ttf.meta
+      projectPath: Assets/Fonts/OpenSans/OpenSansLight.ttf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/OpenSans/OpenSansRegular.ttf
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts/OpenSans/OpenSansRegular.ttf
+      projectPath: Assets/Fonts/OpenSans/OpenSansRegular.ttf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/OpenSans/OpenSansRegular.ttf.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts/OpenSans/OpenSansRegular.ttf.meta
+      projectPath: Assets/Fonts/OpenSans/OpenSansRegular.ttf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/OpenSans/OpenSansSemibold.ttf
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts/OpenSans/OpenSansSemibold.ttf
+      projectPath: Assets/Fonts/OpenSans/OpenSansSemibold.ttf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/OpenSans/OpenSansSemibold.ttf.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Fonts/OpenSans/OpenSansSemibold.ttf.meta
+      projectPath: Assets/Fonts/OpenSans/OpenSansSemibold.ttf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby.meta
+      projectPath: Assets/Lobby.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Documentation.txt
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Documentation.txt
+      projectPath: Assets/Lobby/Documentation.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Documentation.txt.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Documentation.txt.meta
+      projectPath: Assets/Lobby/Documentation.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Instruction.txt
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Instruction.txt
+      projectPath: Assets/Lobby/Instruction.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Instruction.txt.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Instruction.txt.meta
+      projectPath: Assets/Lobby/Instruction.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Prefabs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Prefabs.meta
+      projectPath: Assets/Lobby/Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Prefabs/LobbyManager.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Prefabs/LobbyManager.prefab
+      projectPath: Assets/Lobby/Prefabs/LobbyManager.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Prefabs/LobbyManager.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Prefabs/LobbyManager.prefab.meta
+      projectPath: Assets/Lobby/Prefabs/LobbyManager.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Prefabs/NewIcons.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Prefabs/NewIcons.prefab
+      projectPath: Assets/Lobby/Prefabs/NewIcons.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Prefabs/NewIcons.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Prefabs/NewIcons.prefab.meta
+      projectPath: Assets/Lobby/Prefabs/NewIcons.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Prefabs/PlayerInfo.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Prefabs/PlayerInfo.prefab
+      projectPath: Assets/Lobby/Prefabs/PlayerInfo.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Prefabs/PlayerInfo.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Prefabs/PlayerInfo.prefab.meta
+      projectPath: Assets/Lobby/Prefabs/PlayerInfo.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Prefabs/ServerInfoEntry.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Prefabs/ServerInfoEntry.prefab
+      projectPath: Assets/Lobby/Prefabs/ServerInfoEntry.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Prefabs/ServerInfoEntry.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Prefabs/ServerInfoEntry.prefab.meta
+      projectPath: Assets/Lobby/Prefabs/ServerInfoEntry.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Prefabs/ServerNameGroup.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Prefabs/ServerNameGroup.prefab
+      projectPath: Assets/Lobby/Prefabs/ServerNameGroup.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Prefabs/ServerNameGroup.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Prefabs/ServerNameGroup.prefab.meta
+      projectPath: Assets/Lobby/Prefabs/ServerNameGroup.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts.meta
+      projectPath: Assets/Lobby/Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/DraggablePanel.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/DraggablePanel.cs
+      projectPath: Assets/Lobby/Scripts/DraggablePanel.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/DraggablePanel.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/DraggablePanel.cs.meta
+      projectPath: Assets/Lobby/Scripts/DraggablePanel.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/EventSystemChecker.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/EventSystemChecker.cs
+      projectPath: Assets/Lobby/Scripts/EventSystemChecker.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/EventSystemChecker.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/EventSystemChecker.cs.meta
+      projectPath: Assets/Lobby/Scripts/EventSystemChecker.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby.meta
+      projectPath: Assets/Lobby/Scripts/Lobby.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyCountdownPanel.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyCountdownPanel.cs
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyCountdownPanel.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyCountdownPanel.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyCountdownPanel.cs.meta
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyCountdownPanel.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyHook.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyHook.cs
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyHook.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyHook.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyHook.cs.meta
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyHook.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyInfoPanel.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyInfoPanel.cs
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyInfoPanel.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyInfoPanel.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyInfoPanel.cs.meta
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyInfoPanel.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyMainMenu.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyMainMenu.cs
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyMainMenu.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyMainMenu.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyMainMenu.cs.meta
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyMainMenu.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyManager.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyManager.cs
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyManager.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyManager.cs.meta
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyPlayer.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyPlayer.cs
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyPlayer.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyPlayer.cs.meta
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyPlayerList.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyPlayerList.cs
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyPlayerList.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyPlayerList.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyPlayerList.cs.meta
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyPlayerList.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyServerEntry.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyServerEntry.cs
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyServerEntry.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyServerEntry.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyServerEntry.cs.meta
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyServerEntry.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyServerList.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyServerList.cs
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyServerList.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyServerList.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyServerList.cs.meta
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyServerList.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyTopPanel.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyTopPanel.cs
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyTopPanel.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Scripts/Lobby/LobbyTopPanel.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Scripts/Lobby/LobbyTopPanel.cs.meta
+      projectPath: Assets/Lobby/Scripts/Lobby/LobbyTopPanel.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites.meta
+      projectPath: Assets/Lobby/Sprites.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/AddSprite.png
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/AddSprite.png
+      projectPath: Assets/Lobby/Sprites/AddSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/AddSprite.png.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/AddSprite.png.meta
+      projectPath: Assets/Lobby/Sprites/AddSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/ButtonSprite.png
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/ButtonSprite.png
+      projectPath: Assets/Lobby/Sprites/ButtonSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/ButtonSprite.png.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/ButtonSprite.png.meta
+      projectPath: Assets/Lobby/Sprites/ButtonSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/InfoPanelSprite.png
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/InfoPanelSprite.png
+      projectPath: Assets/Lobby/Sprites/InfoPanelSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/InfoPanelSprite.png.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/InfoPanelSprite.png.meta
+      projectPath: Assets/Lobby/Sprites/InfoPanelSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/InputFieldSprite.png
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/InputFieldSprite.png
+      projectPath: Assets/Lobby/Sprites/InputFieldSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/InputFieldSprite.png.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/InputFieldSprite.png.meta
+      projectPath: Assets/Lobby/Sprites/InputFieldSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/LocalSprite.png
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/LocalSprite.png
+      projectPath: Assets/Lobby/Sprites/LocalSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/LocalSprite.png.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/LocalSprite.png.meta
+      projectPath: Assets/Lobby/Sprites/LocalSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/RemoteSprite.png
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/RemoteSprite.png
+      projectPath: Assets/Lobby/Sprites/RemoteSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/RemoteSprite.png.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/RemoteSprite.png.meta
+      projectPath: Assets/Lobby/Sprites/RemoteSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/RemoveSprite.png
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/RemoveSprite.png
+      projectPath: Assets/Lobby/Sprites/RemoveSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Lobby/Sprites/RemoveSprite.png.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Lobby/Sprites/RemoveSprite.png.meta
+      projectPath: Assets/Lobby/Sprites/RemoveSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials.meta
+      projectPath: Assets/Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/fx_bolt_orange.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/fx_bolt_orange.mat
+      projectPath: Assets/Materials/fx_bolt_orange.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/fx_bolt_orange.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/fx_bolt_orange.mat.meta
+      projectPath: Assets/Materials/fx_bolt_orange.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/fx_enemyShip_engines_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/fx_enemyShip_engines_mat.mat
+      projectPath: Assets/Materials/fx_enemyShip_engines_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/fx_enemyShip_engines_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/fx_enemyShip_engines_mat.mat.meta
+      projectPath: Assets/Materials/fx_enemyShip_engines_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_blast_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_blast_mat.mat
+      projectPath: Assets/Materials/part_blast_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_blast_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_blast_mat.mat.meta
+      projectPath: Assets/Materials/part_blast_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_glow_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_glow_mat.mat
+      projectPath: Assets/Materials/part_glow_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_glow_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_glow_mat.mat.meta
+      projectPath: Assets/Materials/part_glow_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_jet_core_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_jet_core_mat.mat
+      projectPath: Assets/Materials/part_jet_core_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_jet_core_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_jet_core_mat.mat.meta
+      projectPath: Assets/Materials/part_jet_core_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_jet_flare_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_jet_flare_mat.mat
+      projectPath: Assets/Materials/part_jet_flare_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_jet_flare_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_jet_flare_mat.mat.meta
+      projectPath: Assets/Materials/part_jet_flare_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_shockwave_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_shockwave_mat.mat
+      projectPath: Assets/Materials/part_shockwave_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_shockwave_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_shockwave_mat.mat.meta
+      projectPath: Assets/Materials/part_shockwave_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_spark_blue_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_spark_blue_mat.mat
+      projectPath: Assets/Materials/part_spark_blue_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_spark_blue_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_spark_blue_mat.mat.meta
+      projectPath: Assets/Materials/part_spark_blue_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_spark_large_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_spark_large_mat.mat
+      projectPath: Assets/Materials/part_spark_large_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_spark_large_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_spark_large_mat.mat.meta
+      projectPath: Assets/Materials/part_spark_large_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_spark_white_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_spark_white_mat.mat
+      projectPath: Assets/Materials/part_spark_white_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_spark_white_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_spark_white_mat.mat.meta
+      projectPath: Assets/Materials/part_spark_white_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_spark_yellow_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_spark_yellow_mat.mat
+      projectPath: Assets/Materials/part_spark_yellow_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_spark_yellow_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_spark_yellow_mat.mat.meta
+      projectPath: Assets/Materials/part_spark_yellow_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_star_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_star_mat.mat
+      projectPath: Assets/Materials/part_star_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/part_star_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/part_star_mat.mat.meta
+      projectPath: Assets/Materials/part_star_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/prop_asteroid_01_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/prop_asteroid_01_mat.mat
+      projectPath: Assets/Materials/prop_asteroid_01_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/prop_asteroid_01_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/prop_asteroid_01_mat.mat.meta
+      projectPath: Assets/Materials/prop_asteroid_01_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/prop_asteroid_02_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/prop_asteroid_02_mat.mat
+      projectPath: Assets/Materials/prop_asteroid_02_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/prop_asteroid_02_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/prop_asteroid_02_mat.mat.meta
+      projectPath: Assets/Materials/prop_asteroid_02_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/prop_asteroid_03_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/prop_asteroid_03_mat.mat
+      projectPath: Assets/Materials/prop_asteroid_03_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/prop_asteroid_03_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/prop_asteroid_03_mat.mat.meta
+      projectPath: Assets/Materials/prop_asteroid_03_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/vehicle_enemyShip_glow_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/vehicle_enemyShip_glow_mat.mat
+      projectPath: Assets/Materials/vehicle_enemyShip_glow_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/vehicle_enemyShip_glow_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/vehicle_enemyShip_glow_mat.mat.meta
+      projectPath: Assets/Materials/vehicle_enemyShip_glow_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/vehicle_enemyShip_metal_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/vehicle_enemyShip_metal_mat.mat
+      projectPath: Assets/Materials/vehicle_enemyShip_metal_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/vehicle_enemyShip_metal_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/vehicle_enemyShip_metal_mat.mat.meta
+      projectPath: Assets/Materials/vehicle_enemyShip_metal_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/vehicle_playerShip_glass_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/vehicle_playerShip_glass_mat.mat
+      projectPath: Assets/Materials/vehicle_playerShip_glass_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/vehicle_playerShip_glass_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/vehicle_playerShip_glass_mat.mat.meta
+      projectPath: Assets/Materials/vehicle_playerShip_glass_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/vehicle_playerShip_metal_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/vehicle_playerShip_metal_mat.mat
+      projectPath: Assets/Materials/vehicle_playerShip_metal_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/vehicle_playerShip_metal_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Materials/vehicle_playerShip_metal_mat.mat.meta
+      projectPath: Assets/Materials/vehicle_playerShip_metal_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models.meta
+      projectPath: Assets/Models.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/prop_asteroid_01.FBX
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/prop_asteroid_01.FBX
+      projectPath: Assets/Models/prop_asteroid_01.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/prop_asteroid_01.FBX.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/prop_asteroid_01.FBX.meta
+      projectPath: Assets/Models/prop_asteroid_01.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/prop_asteroid_02.FBX
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/prop_asteroid_02.FBX
+      projectPath: Assets/Models/prop_asteroid_02.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/prop_asteroid_02.FBX.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/prop_asteroid_02.FBX.meta
+      projectPath: Assets/Models/prop_asteroid_02.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/prop_asteroid_03.FBX
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/prop_asteroid_03.FBX
+      projectPath: Assets/Models/prop_asteroid_03.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/prop_asteroid_03.FBX.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/prop_asteroid_03.FBX.meta
+      projectPath: Assets/Models/prop_asteroid_03.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/vehicle_enemyShip.FBX
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/vehicle_enemyShip.FBX
+      projectPath: Assets/Models/vehicle_enemyShip.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/vehicle_enemyShip.FBX.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/vehicle_enemyShip.FBX.meta
+      projectPath: Assets/Models/vehicle_enemyShip.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/vehicle_playerShip.FBX
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/vehicle_playerShip.FBX
+      projectPath: Assets/Models/vehicle_playerShip.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/vehicle_playerShip.FBX.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/vehicle_playerShip.FBX.meta
+      projectPath: Assets/Models/vehicle_playerShip.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/vehicle_playerShip_collider.FBX
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/vehicle_playerShip_collider.FBX
+      projectPath: Assets/Models/vehicle_playerShip_collider.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Models/vehicle_playerShip_collider.FBX.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Models/vehicle_playerShip_collider.FBX.meta
+      projectPath: Assets/Models/vehicle_playerShip_collider.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins.meta
+      projectPath: Assets/Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub.meta
+      projectPath: Assets/Plugins/GitHub.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor.meta
+      projectPath: Assets/Plugins/GitHub/Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/System.Threading.dll
+      projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/credits.txt
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/credits.txt
+      projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/credits.txt.meta
+      projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/eula.txt
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/eula.txt
+      projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/eula.txt.meta
+      projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/libsfw.bundle
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.so
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/libsfw.so
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/sfw.net.dll
+      projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/x64.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/x86.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs.meta
+      projectPath: Assets/Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX.meta
+      projectPath: Assets/Prefabs/VFX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Engines.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Engines.meta
+      projectPath: Assets/Prefabs/VFX/Engines.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Engines/engines_enemy.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Engines/engines_enemy.prefab
+      projectPath: Assets/Prefabs/VFX/Engines/engines_enemy.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Engines/engines_enemy.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Engines/engines_enemy.prefab.meta
+      projectPath: Assets/Prefabs/VFX/Engines/engines_enemy.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Engines/engines_player.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Engines/engines_player.prefab
+      projectPath: Assets/Prefabs/VFX/Engines/engines_player.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Engines/engines_player.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Engines/engines_player.prefab.meta
+      projectPath: Assets/Prefabs/VFX/Engines/engines_player.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Explosions.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Explosions.meta
+      projectPath: Assets/Prefabs/VFX/Explosions.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Explosions/explosion_asteroid.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Explosions/explosion_asteroid.prefab
+      projectPath: Assets/Prefabs/VFX/Explosions/explosion_asteroid.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Explosions/explosion_asteroid.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Explosions/explosion_asteroid.prefab.meta
+      projectPath: Assets/Prefabs/VFX/Explosions/explosion_asteroid.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Explosions/explosion_enemy.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Explosions/explosion_enemy.prefab
+      projectPath: Assets/Prefabs/VFX/Explosions/explosion_enemy.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Explosions/explosion_enemy.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Explosions/explosion_enemy.prefab.meta
+      projectPath: Assets/Prefabs/VFX/Explosions/explosion_enemy.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Explosions/explosion_player.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Explosions/explosion_player.prefab
+      projectPath: Assets/Prefabs/VFX/Explosions/explosion_player.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Explosions/explosion_player.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Explosions/explosion_player.prefab.meta
+      projectPath: Assets/Prefabs/VFX/Explosions/explosion_player.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Starfield.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Starfield.meta
+      projectPath: Assets/Prefabs/VFX/Starfield.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Starfield/StarField.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Starfield/StarField.prefab
+      projectPath: Assets/Prefabs/VFX/Starfield/StarField.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/VFX/Starfield/StarField.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Prefabs/VFX/Starfield/StarField.prefab.meta
+      projectPath: Assets/Prefabs/VFX/Starfield/StarField.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Readme.asset
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Readme.asset
+      projectPath: Assets/Readme.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Readme.asset.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Readme.asset.meta
+      projectPath: Assets/Readme.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes.meta
+      projectPath: Assets/SampleScenes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Materials.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Materials.meta
+      projectPath: Assets/SampleScenes/Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Materials/FlyerAsteroid.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Materials/FlyerAsteroid.mat
+      projectPath: Assets/SampleScenes/Materials/FlyerAsteroid.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Materials/FlyerAsteroid.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Materials/FlyerAsteroid.mat.meta
+      projectPath: Assets/SampleScenes/Materials/FlyerAsteroid.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Materials/FlyerPlayership.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Materials/FlyerPlayership.mat
+      projectPath: Assets/SampleScenes/Materials/FlyerPlayership.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Materials/FlyerPlayership.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Materials/FlyerPlayership.mat.meta
+      projectPath: Assets/SampleScenes/Materials/FlyerPlayership.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Materials/ParticleAfterburner.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Materials/ParticleAfterburner.mat
+      projectPath: Assets/SampleScenes/Materials/ParticleAfterburner.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Materials/ParticleAfterburner.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Materials/ParticleAfterburner.mat.meta
+      projectPath: Assets/SampleScenes/Materials/ParticleAfterburner.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Materials/WhiteSmooth.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Materials/WhiteSmooth.mat
+      projectPath: Assets/SampleScenes/Materials/WhiteSmooth.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Materials/WhiteSmooth.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Materials/WhiteSmooth.mat.meta
+      projectPath: Assets/SampleScenes/Materials/WhiteSmooth.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Materials/WhiteUnlit.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Materials/WhiteUnlit.mat
+      projectPath: Assets/SampleScenes/Materials/WhiteUnlit.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Materials/WhiteUnlit.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Materials/WhiteUnlit.mat.meta
+      projectPath: Assets/SampleScenes/Materials/WhiteUnlit.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models.meta
+      projectPath: Assets/SampleScenes/Models.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/Asteroid01.fbx
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/Asteroid01.fbx
+      projectPath: Assets/SampleScenes/Models/Asteroid01.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/Asteroid01.fbx.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/Asteroid01.fbx.meta
+      projectPath: Assets/SampleScenes/Models/Asteroid01.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/FlyerAsteroidB.fbx
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/FlyerAsteroidB.fbx
+      projectPath: Assets/SampleScenes/Models/FlyerAsteroidB.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/FlyerAsteroidB.fbx.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/FlyerAsteroidB.fbx.meta
+      projectPath: Assets/SampleScenes/Models/FlyerAsteroidB.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/LaserBolt.fbx
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/LaserBolt.fbx
+      projectPath: Assets/SampleScenes/Models/LaserBolt.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/LaserBolt.fbx.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/LaserBolt.fbx.meta
+      projectPath: Assets/SampleScenes/Models/LaserBolt.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/Materials.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/Materials.meta
+      projectPath: Assets/SampleScenes/Models/Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/Materials/Asteroid.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/Materials/Asteroid.mat
+      projectPath: Assets/SampleScenes/Models/Materials/Asteroid.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/Materials/Asteroid.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/Materials/Asteroid.mat.meta
+      projectPath: Assets/SampleScenes/Models/Materials/Asteroid.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/Materials/SpaceshipGlow.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/Materials/SpaceshipGlow.mat
+      projectPath: Assets/SampleScenes/Models/Materials/SpaceshipGlow.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/Materials/SpaceshipGlow.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/Materials/SpaceshipGlow.mat.meta
+      projectPath: Assets/SampleScenes/Models/Materials/SpaceshipGlow.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/Materials/SpaceshipHull.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/Materials/SpaceshipHull.mat
+      projectPath: Assets/SampleScenes/Models/Materials/SpaceshipHull.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/Materials/SpaceshipHull.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/Materials/SpaceshipHull.mat.meta
+      projectPath: Assets/SampleScenes/Models/Materials/SpaceshipHull.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/Spaceship.fbx
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/Spaceship.fbx
+      projectPath: Assets/SampleScenes/Models/Spaceship.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Models/Spaceship.fbx.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Models/Spaceship.fbx.meta
+      projectPath: Assets/SampleScenes/Models/Spaceship.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Prefabs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Prefabs.meta
+      projectPath: Assets/SampleScenes/Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Prefabs/BigAsteroid.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Prefabs/BigAsteroid.prefab
+      projectPath: Assets/SampleScenes/Prefabs/BigAsteroid.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Prefabs/BigAsteroid.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Prefabs/BigAsteroid.prefab.meta
+      projectPath: Assets/SampleScenes/Prefabs/BigAsteroid.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Prefabs/SmallAsteroid.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Prefabs/SmallAsteroid.prefab
+      projectPath: Assets/SampleScenes/Prefabs/SmallAsteroid.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Prefabs/SmallAsteroid.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Prefabs/SmallAsteroid.prefab.meta
+      projectPath: Assets/SampleScenes/Prefabs/SmallAsteroid.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Prefabs/Spaceship.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Prefabs/Spaceship.prefab
+      projectPath: Assets/SampleScenes/Prefabs/Spaceship.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Prefabs/Spaceship.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Prefabs/Spaceship.prefab.meta
+      projectPath: Assets/SampleScenes/Prefabs/Spaceship.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Prefabs/SpaceshipBullet.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Prefabs/SpaceshipBullet.prefab
+      projectPath: Assets/SampleScenes/Prefabs/SpaceshipBullet.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Prefabs/SpaceshipBullet.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Prefabs/SpaceshipBullet.prefab.meta
+      projectPath: Assets/SampleScenes/Prefabs/SpaceshipBullet.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scenes.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scenes.meta
+      projectPath: Assets/SampleScenes/Scenes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scenes/NetworkLobby.unity
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scenes/NetworkLobby.unity
+      projectPath: Assets/SampleScenes/Scenes/NetworkLobby.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scenes/NetworkLobby.unity.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scenes/NetworkLobby.unity.meta
+      projectPath: Assets/SampleScenes/Scenes/NetworkLobby.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scenes/NetworkSpaceship.unity
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scenes/NetworkSpaceship.unity
+      projectPath: Assets/SampleScenes/Scenes/NetworkSpaceship.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scenes/NetworkSpaceship.unity.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scenes/NetworkSpaceship.unity.meta
+      projectPath: Assets/SampleScenes/Scenes/NetworkSpaceship.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scripts.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scripts.meta
+      projectPath: Assets/SampleScenes/Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scripts/NetworkAsteroid.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scripts/NetworkAsteroid.cs
+      projectPath: Assets/SampleScenes/Scripts/NetworkAsteroid.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scripts/NetworkAsteroid.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scripts/NetworkAsteroid.cs.meta
+      projectPath: Assets/SampleScenes/Scripts/NetworkAsteroid.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scripts/NetworkGameManager.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scripts/NetworkGameManager.cs
+      projectPath: Assets/SampleScenes/Scripts/NetworkGameManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scripts/NetworkGameManager.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scripts/NetworkGameManager.cs.meta
+      projectPath: Assets/SampleScenes/Scripts/NetworkGameManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scripts/NetworkLobbyHook.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scripts/NetworkLobbyHook.cs
+      projectPath: Assets/SampleScenes/Scripts/NetworkLobbyHook.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scripts/NetworkLobbyHook.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scripts/NetworkLobbyHook.cs.meta
+      projectPath: Assets/SampleScenes/Scripts/NetworkLobbyHook.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scripts/NetworkSpaceship.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scripts/NetworkSpaceship.cs
+      projectPath: Assets/SampleScenes/Scripts/NetworkSpaceship.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scripts/NetworkSpaceship.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scripts/NetworkSpaceship.cs.meta
+      projectPath: Assets/SampleScenes/Scripts/NetworkSpaceship.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scripts/NetworkSpaceshipBullet.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scripts/NetworkSpaceshipBullet.cs
+      projectPath: Assets/SampleScenes/Scripts/NetworkSpaceshipBullet.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Scripts/NetworkSpaceshipBullet.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Scripts/NetworkSpaceshipBullet.cs.meta
+      projectPath: Assets/SampleScenes/Scripts/NetworkSpaceshipBullet.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Textures.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Textures.meta
+      projectPath: Assets/SampleScenes/Textures.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Textures/FlyerAsteroidEmissive.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Textures/FlyerAsteroidEmissive.tif
+      projectPath: Assets/SampleScenes/Textures/FlyerAsteroidEmissive.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Textures/FlyerAsteroidEmissive.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Textures/FlyerAsteroidEmissive.tif.meta
+      projectPath: Assets/SampleScenes/Textures/FlyerAsteroidEmissive.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Textures/FlyerPlayershipAlbedo.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Textures/FlyerPlayershipAlbedo.tif
+      projectPath: Assets/SampleScenes/Textures/FlyerPlayershipAlbedo.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Textures/FlyerPlayershipAlbedo.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Textures/FlyerPlayershipAlbedo.tif.meta
+      projectPath: Assets/SampleScenes/Textures/FlyerPlayershipAlbedo.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Textures/FlyerPlayershipEmission.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Textures/FlyerPlayershipEmission.tif
+      projectPath: Assets/SampleScenes/Textures/FlyerPlayershipEmission.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Textures/FlyerPlayershipEmission.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Textures/FlyerPlayershipEmission.tif.meta
+      projectPath: Assets/SampleScenes/Textures/FlyerPlayershipEmission.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Textures/FlyerPlayershipOcclusion.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Textures/FlyerPlayershipOcclusion.tif
+      projectPath: Assets/SampleScenes/Textures/FlyerPlayershipOcclusion.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/SampleScenes/Textures/FlyerPlayershipOcclusion.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/SampleScenes/Textures/FlyerPlayershipOcclusion.tif.meta
+      projectPath: Assets/SampleScenes/Textures/FlyerPlayershipOcclusion.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures.meta
+      projectPath: Assets/Textures.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/cube_junkyard_sharp.cubemap
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/cube_junkyard_sharp.cubemap
+      projectPath: Assets/Textures/cube_junkyard_sharp.cubemap
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/cube_junkyard_sharp.cubemap.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/cube_junkyard_sharp.cubemap.meta
+      projectPath: Assets/Textures/cube_junkyard_sharp.cubemap.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/cube_junkyard_soft.cubemap
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/cube_junkyard_soft.cubemap
+      projectPath: Assets/Textures/cube_junkyard_soft.cubemap
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/cube_junkyard_soft.cubemap.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/cube_junkyard_soft.cubemap.meta
+      projectPath: Assets/Textures/cube_junkyard_soft.cubemap.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/fx_lazer_cyan_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/fx_lazer_cyan_dff.tif
+      projectPath: Assets/Textures/fx_lazer_cyan_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/fx_lazer_cyan_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/fx_lazer_cyan_dff.tif.meta
+      projectPath: Assets/Textures/fx_lazer_cyan_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/fx_lazer_orange_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/fx_lazer_orange_dff.tif
+      projectPath: Assets/Textures/fx_lazer_orange_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/fx_lazer_orange_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/fx_lazer_orange_dff.tif.meta
+      projectPath: Assets/Textures/fx_lazer_orange_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_enginePulse_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_enginePulse_dff.tif
+      projectPath: Assets/Textures/part_enginePulse_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_enginePulse_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_enginePulse_dff.tif.meta
+      projectPath: Assets/Textures/part_enginePulse_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_flash_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_flash_dff.tif
+      projectPath: Assets/Textures/part_flash_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_flash_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_flash_dff.tif.meta
+      projectPath: Assets/Textures/part_flash_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_jet_core_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_jet_core_dff.tif
+      projectPath: Assets/Textures/part_jet_core_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_jet_core_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_jet_core_dff.tif.meta
+      projectPath: Assets/Textures/part_jet_core_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_jet_flare_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_jet_flare_dff.tif
+      projectPath: Assets/Textures/part_jet_flare_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_jet_flare_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_jet_flare_dff.tif.meta
+      projectPath: Assets/Textures/part_jet_flare_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_shockwave_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_shockwave_dff.tif
+      projectPath: Assets/Textures/part_shockwave_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_shockwave_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_shockwave_dff.tif.meta
+      projectPath: Assets/Textures/part_shockwave_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_spark_large_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_spark_large_dff.tif
+      projectPath: Assets/Textures/part_spark_large_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_spark_large_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_spark_large_dff.tif.meta
+      projectPath: Assets/Textures/part_spark_large_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_spark_small_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_spark_small_dff.tif
+      projectPath: Assets/Textures/part_spark_small_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_spark_small_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_spark_small_dff.tif.meta
+      projectPath: Assets/Textures/part_spark_small_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_star_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_star_dff.tif
+      projectPath: Assets/Textures/part_star_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/part_star_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/part_star_dff.tif.meta
+      projectPath: Assets/Textures/part_star_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_01_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_01_dff.tif
+      projectPath: Assets/Textures/prop_asteroid_01_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_01_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_01_dff.tif.meta
+      projectPath: Assets/Textures/prop_asteroid_01_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_01_nrm.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_01_nrm.tif
+      projectPath: Assets/Textures/prop_asteroid_01_nrm.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_01_nrm.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_01_nrm.tif.meta
+      projectPath: Assets/Textures/prop_asteroid_01_nrm.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_02_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_02_dff.tif
+      projectPath: Assets/Textures/prop_asteroid_02_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_02_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_02_dff.tif.meta
+      projectPath: Assets/Textures/prop_asteroid_02_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_02_nrm.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_02_nrm.tif
+      projectPath: Assets/Textures/prop_asteroid_02_nrm.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_02_nrm.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_02_nrm.tif.meta
+      projectPath: Assets/Textures/prop_asteroid_02_nrm.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_03_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_03_dff.tif
+      projectPath: Assets/Textures/prop_asteroid_03_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_03_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_03_dff.tif.meta
+      projectPath: Assets/Textures/prop_asteroid_03_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_03_nrm.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_03_nrm.tif
+      projectPath: Assets/Textures/prop_asteroid_03_nrm.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/prop_asteroid_03_nrm.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/prop_asteroid_03_nrm.tif.meta
+      projectPath: Assets/Textures/prop_asteroid_03_nrm.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/tile_nebula_green_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/tile_nebula_green_dff.tif
+      projectPath: Assets/Textures/tile_nebula_green_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/tile_nebula_green_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/tile_nebula_green_dff.tif.meta
+      projectPath: Assets/Textures/tile_nebula_green_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/vehicle_enemyShip_nrm.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/vehicle_enemyShip_nrm.tif
+      projectPath: Assets/Textures/vehicle_enemyShip_nrm.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/vehicle_enemyShip_nrm.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/vehicle_enemyShip_nrm.tif.meta
+      projectPath: Assets/Textures/vehicle_enemyShip_nrm.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/vehicle_enemyShip_purple_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/vehicle_enemyShip_purple_dff.tif
+      projectPath: Assets/Textures/vehicle_enemyShip_purple_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/vehicle_enemyShip_purple_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/vehicle_enemyShip_purple_dff.tif.meta
+      projectPath: Assets/Textures/vehicle_enemyShip_purple_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/vehicle_enemyShip_red_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/vehicle_enemyShip_red_dff.tif
+      projectPath: Assets/Textures/vehicle_enemyShip_red_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/vehicle_enemyShip_red_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/vehicle_enemyShip_red_dff.tif.meta
+      projectPath: Assets/Textures/vehicle_enemyShip_red_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/vehicle_playerShip_orange_dff.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/vehicle_playerShip_orange_dff.tif
+      projectPath: Assets/Textures/vehicle_playerShip_orange_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/vehicle_playerShip_orange_dff.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/vehicle_playerShip_orange_dff.tif.meta
+      projectPath: Assets/Textures/vehicle_playerShip_orange_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/vehicle_playerShip_orange_nrm.tif
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/vehicle_playerShip_orange_nrm.tif
+      projectPath: Assets/Textures/vehicle_playerShip_orange_nrm.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Textures/vehicle_playerShip_orange_nrm.tif.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/Textures/vehicle_playerShip_orange_nrm.tif.meta
+      projectPath: Assets/Textures/vehicle_playerShip_orange_nrm.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo.meta
+      projectPath: Assets/TutorialInfo.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Icons.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Icons.meta
+      projectPath: Assets/TutorialInfo/Icons.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Icons/Help_Icon.png
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Icons/Help_Icon.png
+      projectPath: Assets/TutorialInfo/Icons/Help_Icon.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Icons/Help_Icon.png.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Icons/Help_Icon.png.meta
+      projectPath: Assets/TutorialInfo/Icons/Help_Icon.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Icons/Space-Shooter.png
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Icons/Space-Shooter.png
+      projectPath: Assets/TutorialInfo/Icons/Space-Shooter.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Icons/Space-Shooter.png.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Icons/Space-Shooter.png.meta
+      projectPath: Assets/TutorialInfo/Icons/Space-Shooter.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Layout.wlt
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Layout.wlt
+      projectPath: Assets/TutorialInfo/Layout.wlt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Layout.wlt.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Layout.wlt.meta
+      projectPath: Assets/TutorialInfo/Layout.wlt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Scripts.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Scripts.meta
+      projectPath: Assets/TutorialInfo/Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Scripts/Editor.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Scripts/Editor.meta
+      projectPath: Assets/TutorialInfo/Scripts/Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+      projectPath: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta
+      projectPath: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Scripts/Readme.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Scripts/Readme.cs
+      projectPath: Assets/TutorialInfo/Scripts/Readme.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/TutorialInfo/Scripts/Readme.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/TutorialInfo/Scripts/Readme.cs.meta
+      projectPath: Assets/TutorialInfo/Scripts/Readme.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game.meta
+      projectPath: Assets/_Complete-Game.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Materials.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Materials.meta
+      projectPath: Assets/_Complete-Game/Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Materials/done_fx_bolt_cyan_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Materials/done_fx_bolt_cyan_mat.mat
+      projectPath: Assets/_Complete-Game/Materials/done_fx_bolt_cyan_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Materials/done_fx_bolt_cyan_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Materials/done_fx_bolt_cyan_mat.mat.meta
+      projectPath: Assets/_Complete-Game/Materials/done_fx_bolt_cyan_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Materials/done_fx_bolt_orange_mat.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Materials/done_fx_bolt_orange_mat.mat
+      projectPath: Assets/_Complete-Game/Materials/done_fx_bolt_orange_mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Materials/done_fx_bolt_orange_mat.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Materials/done_fx_bolt_orange_mat.mat.meta
+      projectPath: Assets/_Complete-Game/Materials/done_fx_bolt_orange_mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Materials/done_tile_nebula_green_dff.mat
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Materials/done_tile_nebula_green_dff.mat
+      projectPath: Assets/_Complete-Game/Materials/done_tile_nebula_green_dff.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Materials/done_tile_nebula_green_dff.mat.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Materials/done_tile_nebula_green_dff.mat.meta
+      projectPath: Assets/_Complete-Game/Materials/done_tile_nebula_green_dff.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs.meta
+      projectPath: Assets/_Complete-Game/Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Asteroid 01.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Asteroid
+        01.prefab
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Asteroid 01.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Asteroid 01.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Asteroid
+        01.prefab.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Asteroid 01.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Asteroid 02.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Asteroid
+        02.prefab
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Asteroid 02.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Asteroid 02.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Asteroid
+        02.prefab.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Asteroid 02.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Asteroid 03.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Asteroid
+        03.prefab
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Asteroid 03.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Asteroid 03.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Asteroid
+        03.prefab.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Asteroid 03.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Bolt-Enemy.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Bolt-Enemy.prefab
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Bolt-Enemy.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Bolt-Enemy.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Bolt-Enemy.prefab.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Bolt-Enemy.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Bolt.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Bolt.prefab
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Bolt.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Bolt.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Bolt.prefab.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Bolt.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Enemy Ship.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Enemy
+        Ship.prefab
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Enemy Ship.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Enemy Ship.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Enemy
+        Ship.prefab.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Enemy Ship.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Player.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Player.prefab
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Player.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_Player.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_Player.prefab.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_Player.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_VFX.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_VFX.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_VFX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_asteroid.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_asteroid.prefab
+      projectPath: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_asteroid.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_asteroid.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_asteroid.prefab.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_asteroid.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_enemy.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_enemy.prefab
+      projectPath: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_enemy.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_enemy.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_enemy.prefab.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_enemy.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_player.prefab
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_player.prefab
+      projectPath: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_player.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_player.prefab.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_player.prefab.meta
+      projectPath: Assets/_Complete-Game/Prefabs/Done_VFX/Done_Explosions/done_explosion_player.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scenes.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scenes.meta
+      projectPath: Assets/_Complete-Game/Scenes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scenes/Done_Main.unity
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scenes/Done_Main.unity
+      projectPath: Assets/_Complete-Game/Scenes/Done_Main.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scenes/Done_Main.unity.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scenes/Done_Main.unity.meta
+      projectPath: Assets/_Complete-Game/Scenes/Done_Main.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts.meta
+      projectPath: Assets/_Complete-Game/Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_BGScroller.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_BGScroller.cs
+      projectPath: Assets/_Complete-Game/Scripts/Done_BGScroller.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_BGScroller.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_BGScroller.cs.meta
+      projectPath: Assets/_Complete-Game/Scripts/Done_BGScroller.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_DestroyByBoundary.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_DestroyByBoundary.cs
+      projectPath: Assets/_Complete-Game/Scripts/Done_DestroyByBoundary.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_DestroyByBoundary.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_DestroyByBoundary.cs.meta
+      projectPath: Assets/_Complete-Game/Scripts/Done_DestroyByBoundary.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_DestroyByContact.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_DestroyByContact.cs
+      projectPath: Assets/_Complete-Game/Scripts/Done_DestroyByContact.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_DestroyByContact.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_DestroyByContact.cs.meta
+      projectPath: Assets/_Complete-Game/Scripts/Done_DestroyByContact.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_DestroyByTime.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_DestroyByTime.cs
+      projectPath: Assets/_Complete-Game/Scripts/Done_DestroyByTime.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_DestroyByTime.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_DestroyByTime.cs.meta
+      projectPath: Assets/_Complete-Game/Scripts/Done_DestroyByTime.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_EvasiveManeuver.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_EvasiveManeuver.cs
+      projectPath: Assets/_Complete-Game/Scripts/Done_EvasiveManeuver.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_EvasiveManeuver.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_EvasiveManeuver.cs.meta
+      projectPath: Assets/_Complete-Game/Scripts/Done_EvasiveManeuver.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_GameController.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_GameController.cs
+      projectPath: Assets/_Complete-Game/Scripts/Done_GameController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_GameController.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_GameController.cs.meta
+      projectPath: Assets/_Complete-Game/Scripts/Done_GameController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_Mover.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_Mover.cs
+      projectPath: Assets/_Complete-Game/Scripts/Done_Mover.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_Mover.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_Mover.cs.meta
+      projectPath: Assets/_Complete-Game/Scripts/Done_Mover.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_PlayerController.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_PlayerController.cs
+      projectPath: Assets/_Complete-Game/Scripts/Done_PlayerController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_PlayerController.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_PlayerController.cs.meta
+      projectPath: Assets/_Complete-Game/Scripts/Done_PlayerController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_RandomRotator.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_RandomRotator.cs
+      projectPath: Assets/_Complete-Game/Scripts/Done_RandomRotator.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_RandomRotator.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_RandomRotator.cs.meta
+      projectPath: Assets/_Complete-Game/Scripts/Done_RandomRotator.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_WeaponController.cs
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_WeaponController.cs
+      projectPath: Assets/_Complete-Game/Scripts/Done_WeaponController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/_Complete-Game/Scripts/Done_WeaponController.cs.meta
+      fullPath: /Users/labuser/space-shooter-monday/Assets/_Complete-Game/Scripts/Done_WeaponController.cs.meta
+      projectPath: Assets/_Complete-Game/Scripts/Done_WeaponController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Packages/manifest.json
+      fullPath: /Users/labuser/space-shooter-monday/Packages/manifest.json
+      projectPath: Packages/manifest.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/AudioManager.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/AudioManager.asset
+      projectPath: ProjectSettings/AudioManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/ClusterInputManager.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/ClusterInputManager.asset
+      projectPath: ProjectSettings/ClusterInputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/DynamicsManager.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/DynamicsManager.asset
+      projectPath: ProjectSettings/DynamicsManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/EditorBuildSettings.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/EditorBuildSettings.asset
+      projectPath: ProjectSettings/EditorBuildSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/EditorSettings.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/EditorSettings.asset
+      projectPath: ProjectSettings/EditorSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/GraphicsSettings.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/GraphicsSettings.asset
+      projectPath: ProjectSettings/GraphicsSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/InputManager.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/InputManager.asset
+      projectPath: ProjectSettings/InputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/NavMeshAreas.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/NavMeshAreas.asset
+      projectPath: ProjectSettings/NavMeshAreas.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/Physics2DSettings.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/Physics2DSettings.asset
+      projectPath: ProjectSettings/Physics2DSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/PresetManager.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/PresetManager.asset
+      projectPath: ProjectSettings/PresetManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/ProjectSettings.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/ProjectSettings.asset
+      projectPath: ProjectSettings/ProjectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/ProjectVersion.txt
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/ProjectVersion.txt
+      projectPath: ProjectSettings/ProjectVersion.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/QualitySettings.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/QualitySettings.asset
+      projectPath: ProjectSettings/QualitySettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/TagManager.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/TagManager.asset
+      projectPath: ProjectSettings/TagManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/TimeManager.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/TimeManager.asset
+      projectPath: ProjectSettings/TimeManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/UnityConnectSettings.asset
+      fullPath: /Users/labuser/space-shooter-monday/ProjectSettings/UnityConnectSettings.asset
+      projectPath: ProjectSettings/UnityConnectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: ea18c37556f25c08fa1a2e8b16a90df3141f33a7
+    mergeA: 
+    mergeB: 
+    authorName: Yi-Lai-SJSU
+    authorEmail: yi.lai@sjsu.edu
+    commitEmail: yi.lai@sjsu.edu
+    commitName: Yi-Lai-SJSU
+    summary: Initial commit
+    description: Initial commit
+    timeString: 2018-11-26T21:57:49.000-08:00
+    commitTimeString: 2018-11-26T21:57:49.000-08:00
+    changes:
+    - path: .gitattributes
+      fullPath: /Users/labuser/space-shooter-monday/.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .gitignore
+      fullPath: /Users/labuser/space-shooter-monday/.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/.gitignore
+      fullPath: /Users/labuser/space-shooter-monday/Assets/.gitignore
+      projectPath: Assets/.gitignore
+      originalPath: 
+      status: 4
+      staged: 0
