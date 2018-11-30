@@ -1,6 +1,11 @@
 ﻿
+<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+=======
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+>>>>>>> origin/spaceShooter
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{EDE4927D-4089-DC5A-9A15-7682775028B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{91B71A1C-51E9-CC78-00C5-DB20112F5337}"
@@ -23,7 +28,10 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
+=======
+>>>>>>> origin/spaceShooter
 EndGlobal
