@@ -5,10 +5,17 @@ Shikang Jin
 <br>
 
 #### **What I did since the last weekly scrum:**
- - Picked a JavaScript Game and finished the setup, learned Pixi library
+ - Picked a JavaScript Game and finished the setup.
+ - Learned Pixi library
+
+#### **What I plan to do this week**
+ - Need to discuss the game and decide design pattern 
 
 #### **What blockers I have**
- - Need to discuss the game and decide design pattern ASAP  
+ - None
+
+<br>
+
 
 ## Crazy Spartans, Nov 4
 
@@ -19,8 +26,14 @@ Shikang Jin
 #### **What I did since the last weekly scrum:**
  - Changed the game to another one using Unity Game Engine. Finished the setup.
 
+#### **What I plan to do this week**
+ - Learn Unity framework and C#.
+ - Add player and enemy to the game.
+
 #### **What blockers I have**
- - Need to learn Unity framework and C# ASAP
+ - None
+
+<br>
 
 ## Crazy Spartans, Nov 11
 
@@ -29,10 +42,17 @@ Shikang Jin
 <br>
 
 #### **What I did since the last weekly scrum:**
- - Learned the basic framework of Unity and C#, added player controller and basic enemy type to the game, wrote Mover, DestroyByContact scripts.
+ - Learned the basic framework of Unity and C#.
+ - Added player controller and basic enemy type to the game.
+ - wrote Mover, DestroyByContact scripts.
+
+#### **What I plan to do this week**
+ - Need to discuss design pattern and add it to the game
 
 #### **What blockers I have**
- - Need to discuss design pattern to add ASAP
+ - None
+
+ <br>
 
 ## Crazy Spartans, Nov 18
 
@@ -41,10 +61,17 @@ Shikang Jin
 <br>
 
 #### **What I did since the last weekly scrum:**
- - Expanded the enemy type from 1 to 4. Added Factory Model to the game. Added explosion effect to player and enemy.
+ - Expanded the enemy type from 1 to 4.
+ - Added Factory Model to the game.
+ - Added explosion effect to player and enemy.
+
+#### **What I plan to do this week**
+ - Wait for the 3D version of game and combine it.
 
 #### **What blockers I have**
- - Wait for the 3D version of game and combine it.
+ - Wait for the 3D version of game and combine it. 
+
+<br>
 
 ## Crazy Spartans, Nov 26
 
@@ -55,5 +82,9 @@ Shikang Jin
 #### **What I did since the last weekly scrum:**
  - Added audio to the game. Set the basic rules and scores to the game. 
 
+#### **What I plan to do this week**
+ - Combine the game and publish the game.
+
 #### **What blockers I have**
- - Wait for the 3D version of game and combine it. Need to make Ad Vedio for the game.
+ - Wait for the 3D version of game and combine it.
+ - Need to make Ad Vedio for the game.
