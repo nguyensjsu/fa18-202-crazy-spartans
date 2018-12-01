@@ -15,12 +15,6 @@ public class GameController : MonoBehaviour {
     public float startWait;
     public float waveWait;
 
-    private int score;
-    public Text scoreText;
-
-    private int bullet;
-    public Text bulletText;
-
     public Text gameOverText;
     private bool gameOver;
 
@@ -33,6 +27,13 @@ public class GameController : MonoBehaviour {
     private int hazardType;
 
     public GameObject hazard1, hazard2, hazard3, hazard4;
+
+    public GameObject scoreboard;
+
+    public Text scoreText;
+    public Text bulletText;
+
+    public ScoreBoard sb;
 
     // Use this for initialization
     void Start () {
@@ -48,34 +49,23 @@ public class GameController : MonoBehaviour {
         new HazardTwoFactory().setHazard(hazard2);
         new HazardThreeFactory().setHazard(hazard3);
         new HazardFourFactory().setHazard(hazard4);
+        sb = new ScoreBoard();
+        sb.setScoreBoard(scoreboard,scoreText,bulletText);
         if (!start) {
             startText.text = "Press R to Start";
         }  
-        score = 0;
-        bullet = 10;
         if (start) {
-            UpdateScore();
-            UpdateBullet();
+            sb.UpdateBoard();
             StartCoroutine(SpawnWaves());
         }
 	}
-	
-    void UpdateScore() {
-        scoreText.text = "Score: " + score;
-    }
-
-    void UpdateBullet() {
-        bulletText.text = "Bullet: " + bullet;
-    }
 
     public void addScore(int value) {
-        score += value;
-        UpdateScore();
+        sb.addScore(value);
     }
 
     public void addBullet(int value) {
-        bullet += value;
-        UpdateBullet();
+        sb.addBullet(value);
     }
 
     public bool getStart() {
@@ -83,11 +73,11 @@ public class GameController : MonoBehaviour {
     }
 
     public int getScore() {
-        return score;
+        return sb.getScore();
     }
 
     public int getBullet() {
-        return bullet;
+        return sb.getBullet();
     }
 
     IEnumerator SpawnWaves() {
@@ -96,18 +86,18 @@ public class GameController : MonoBehaviour {
         yield return new WaitForSeconds(startWait);
         while (true) {
             HazardFactory factory;
-            if (score >= 150 && score < 300)
+            if (sb.scoreClass.getScore() >= 150 && sb.scoreClass.getScore() < 300)
             {
                 hazardType = 2;
                 spawnWait = 0.5f;
                 //hazardCount = 10;
             }
-            if (score >= 300 && score < 560) {
+            if (sb.scoreClass.getScore() >= 300 && sb.scoreClass.getScore() < 560) {
                 hazardType = 3;
                 hazardCount = 10;
                 spawnWait = 0.8f;
             } 
-            if (score >= 560 && score < 1400) {
+            if (sb.scoreClass.getScore() >= 560 && sb.scoreClass.getScore() < 1400) {
                 hazardType = 4;
                 hazardCount = 1;
                 waveWait = 9999990f;
