@@ -56,7 +56,7 @@ Team Member Name
 Mengxia Li
 
 1.What I did since the last weekly scrum:
-•	Added Strategy design pattern to the game.
+•	Added Observer design pattern to the game.
 
 2.What I plan to do this week
 •	Wait for the 3D version of game and combine it.
