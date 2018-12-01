@@ -14,6 +14,8 @@ XP Core Value (Courage)
 
 
 Crazy Spartans, Nov 4
+Team Member Name
+Mengxia Li
 
 What I did since the last weekly scrum:
 •	Changed the game to another one using Unity Game Engine. Finished the configuration.
@@ -26,6 +28,8 @@ XP Core Value (Courage)
 •	My teammate encourage me to keep going on our project.
 
 Crazy Spartans, Nov 11
+Team Member Name
+Mengxia Li
 
 What I did since the last weekly scrum:
 •	Learned the basic framework of Unity and C#.
@@ -39,6 +43,8 @@ XP Core Value (Courage)
 •	My teammate encourage me to add new function into the game.
 
 Crazy Spartans, Nov 18
+Team Member Name
+Mengxia Li
 
 What I did since the last weekly scrum:
 •	Added Strategy design pattern to the game.
@@ -50,6 +56,8 @@ XP Core Value (Courage)
 •	My teammates teach and encourage me a lot. 
 
 Crazy Spartans, Nov 26
+Team Member Name
+Mengxia Li
 
 What I did since the last weekly scrum:
 •	Test the game.
