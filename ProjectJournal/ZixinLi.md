@@ -62,7 +62,7 @@
 
 <br>
 
-## Crazy Spartans, Nov 18
+## Crazy Spartans, Nov 11
 
 #### **Team Member Name**
 
@@ -76,7 +76,7 @@
 
 #### **What I plan to do this week** 
 
-- Combine things together and test the game
+- Comtinue to implement pattern
 
 - Try to create more feature.
 
@@ -87,6 +87,32 @@
 #### XP Core Value (feedback)
 
 - Discuss my new pattern and feature with teammates and teammates gave me positive feedback.
+
+<br>
+
+## Crazy Spartans, Nov 18
+
+#### **Team Member Name**
+
+- Zixin Li
+
+#### **What I did since the last weekly scrum:**
+
+- Continue implementing pattern and adding features.
+
+#### **What I plan to do this week** 
+
+- Combine things together and test the game
+
+- Try to create more feature.
+
+#### **What blockers I have**
+
+- Spent a lot of time learning how to create Unity objects and scripts
+
+#### XP Core Value (feedback)
+
+- Discuss my work with teammates and teammates gave me positive feedback.
 
 <br>
 
