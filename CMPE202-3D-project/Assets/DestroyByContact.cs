@@ -6,22 +6,23 @@ using System;
 public class DestroyByContact : MonoBehaviour, Subject {
     public GameObject explosion;
     private int score;
-    private LinkedList<GameController> gameControllerList = new LinkedList<GameController>();
+    private LinkedList<Observer> observers = new LinkedList<Observer>();
+    private StrategyCollide strategyCollide;
 
     public void addObserver(GameController gameControllerFound) {
-        gameControllerList.AddLast(gameControllerFound);
+        observers.AddLast(gameControllerFound);
     }
 
 
     public void removeObserver(GameController gameControllerDelete) {
-        gameControllerList.Remove(gameControllerDelete);
+        observers.Remove(gameControllerDelete);
 
     }
 
     public void notifyObservers(int scoreChange) 
     {
-        foreach(GameController gameController in gameControllerList) {
-            gameController.updateScoreFromOutside(scoreChange);
+        foreach(Observer observer in observers) {
+            observer.updateScoreFromOutside(scoreChange);
         }
     }
 
@@ -44,23 +45,26 @@ public class DestroyByContact : MonoBehaviour, Subject {
     {
         if (other.tag == "3DBolt")
         {
-            Instantiate(explosion, transform.position, transform.rotation);
-            notifyObservers(score);
-            Destroy(gameObject);
-            Destroy(other.gameObject);
+            strategyCollide = new StrategyCollide3DBolt();
         }
 
         if (other.tag == "Player") {
-            foreach (GameController gameController in gameControllerList)
-            {
-                gameController.GameOver();
-            }
-            Destroy(other.gameObject);
+            strategyCollide = new StrategyCollide3DPlayer();
         }
+
+        strategyCollide.destoryPattern(this, other.gameObject);
     }
 
     // Update is called once per frame
     void Update () {
 		
 	}
+
+    public int getScore() {
+        return score;
+    }
+
+    public LinkedList<Observer> getObservers() {
+        return this.observers;
+    }
 }

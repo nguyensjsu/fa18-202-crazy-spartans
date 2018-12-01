@@ -23596,7 +23596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hazard: {fileID: 1959097901398730, guid: 5f4b12b69dce4444f9fc5770362e1bb9, type: 2}
   spawnValue: {x: 10000, y: 1000, z: 1000}
-  hazardCount: 5
+  hazardCount: 10
   spawnWait: 5
   startWart: 2
   scoreText: {fileID: 323591389}

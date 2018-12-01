@@ -110,6 +110,9 @@
     <Compile Include="Assets\SpaceJourney\Plugins\Space Ship\ParticleFollow.cs" />
     <Compile Include="Assets\SpaceJourney\Plugins\Space Ship\SpaceshipController.cs" />
     <Compile Include="Assets\SpaceJourney\Plugins\Time Control\TimeScale.cs" />
+    <Compile Include="Assets\StrategyCollide.cs" />
+    <Compile Include="Assets\StrategyCollide3DBolt.cs" />
+    <Compile Include="Assets\StrategyCollidePlayer.cs" />
     <Compile Include="Assets\Subject.cs" />
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
     <None Include="Assets\SpaceJourney\Plugins\Glitch\Shader\AnalogGlitch.shader" />

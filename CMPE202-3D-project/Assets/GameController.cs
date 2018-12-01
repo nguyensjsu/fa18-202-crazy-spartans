@@ -52,9 +52,11 @@ public class GameController : MonoBehaviour, Observer {
 
 
     IEnumerator SpawnWaves() {
+
         yield return new WaitForSeconds(startWart);
 
         while (true) {
+
             for (int i = 0; i < hazardCount; i++)
             {
                 Vector3 spawnPosision = new Vector3(Random.Range(-spawnValue.x, spawnValue.x),
@@ -70,7 +72,7 @@ public class GameController : MonoBehaviour, Observer {
                     restartText.text = "Press 'R' to restart";
                 }
 
-                if(score > 500) {
+                if(score > 1000) {
                     winText.text = "Congratulation!";
                     restart = true;
                     restartText.text = "Press 'R' to restart";
