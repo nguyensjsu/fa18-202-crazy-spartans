@@ -18,18 +18,27 @@ public class PlayerMove : MonoBehaviour
     public GameObject shot;
     public Transform shotSqawn;
 
+    private GameController gameController;
+
     // Use this for initialization
     void Start()
     {
-
+        GameObject gameControllerObject = GameObject.FindWithTag("GameController");
+        if (gameControllerObject != null) {
+            gameController = gameControllerObject.GetComponent<GameController>();
+        }
+        if (gameControllerObject == null) {
+            Debug.Log("Cannot find 'GameController' script");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Fire1") && Time.time > nextFire) {
+        if (Input.GetButton("Fire1") && Time.time > nextFire && gameController.getStart() && gameController.getBullet() > 0) {
             nextFire = Time.time + fireRate;
             Instantiate(shot, shotSqawn.position, shotSqawn.rotation);
+            gameController.addBullet(-1);
             GetComponent<AudioSource>().Play();
         }
     }

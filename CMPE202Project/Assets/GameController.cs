@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 
 
-public class GameController : MonoBehaviour {
+public class GameController : MonoBehaviour, Observer {
     //public GameObject hazard;
     //public GameObject enemy;
     public Vector3 spawnValue;
@@ -14,9 +14,6 @@ public class GameController : MonoBehaviour {
     public float spawnWait;
     public float startWait;
     public float waveWait;
-
-    private int score;
-    public Text scoreText;
 
     public Text gameOverText;
     private bool gameOver;
@@ -31,6 +28,17 @@ public class GameController : MonoBehaviour {
 
     public GameObject hazard1, hazard2, hazard3, hazard4;
 
+    public GameObject scoreboard;
+
+    public Text scoreText;
+    public Text bulletText;
+
+    public ScoreBoard sb;
+
+    public Text bonus;
+  
+
+    
     // Use this for initialization
     void Start () {
         hazardType = 1;
@@ -41,31 +49,45 @@ public class GameController : MonoBehaviour {
         restartText.text = "";
         restart = false;
         startText.text = "";
+        bonus.text = "";
         new HazardOneFactory().setHazard(hazard1);
         new HazardTwoFactory().setHazard(hazard2);
         new HazardThreeFactory().setHazard(hazard3);
         new HazardFourFactory().setHazard(hazard4);
+        sb = new ScoreBoard(this);
+        sb.setScoreBoard(scoreboard,scoreText,bulletText);
         if (!start) {
             startText.text = "Press R to Start";
         }  
-        score = 0;
         if (start) {
-            UpdateScore();
+            sb.UpdateBoard();
             StartCoroutine(SpawnWaves());
         }
 	}
-	
-    void UpdateScore() {
-        scoreText.text = "Score: " + score;
-    }
 
     public void addScore(int value) {
-        score += value;
-        UpdateScore();
+        sb.addScore(value);
+    }
+
+    public void addBullet(int value) {
+        sb.addBullet(value);
+    }
+
+    public bool getStart() {
+        return start;
     }
 
     public int getScore() {
-        return score;
+        return sb.getScore();
+    }
+
+    public int getBullet() {
+        return sb.getBullet();
+    }
+
+    public void update()
+    {
+        bonus.text = "congradulation!";
     }
 
     IEnumerator SpawnWaves() {
@@ -74,18 +96,18 @@ public class GameController : MonoBehaviour {
         yield return new WaitForSeconds(startWait);
         while (true) {
             HazardFactory factory;
-            if (score >= 150 && score < 300)
+            if (sb.scoreClass.getScore() >= 150 && sb.scoreClass.getScore() < 300)
             {
                 hazardType = 2;
                 spawnWait = 0.5f;
                 //hazardCount = 10;
             }
-            if (score >= 300 && score < 560) {
+            if (sb.scoreClass.getScore() >= 300 && sb.scoreClass.getScore() < 560) {
                 hazardType = 3;
                 hazardCount = 10;
                 spawnWait = 0.8f;
             } 
-            if (score >= 560 && score < 1400) {
+            if (sb.scoreClass.getScore() >= 560 && sb.scoreClass.getScore() < 1400) {
                 hazardType = 4;
                 hazardCount = 1;
                 waveWait = 9999990f;
@@ -115,11 +137,12 @@ public class GameController : MonoBehaviour {
                 //                               spawnValue.z);
                 Instantiate(factory.createHazard(), hazardSpawnPosition, hazardSpawnRotation);
                 //Instantiate(enemy, enemySpawnPosition, hazardSpawnRotation);
-                yield return new WaitForSeconds(spawnWait);
+
                 if (gameOver) {
                     restart = true;
                     restartText.text = "Press 'R' to Restart";
                 }
+                yield return new WaitForSeconds(spawnWait);
             }
 
 
