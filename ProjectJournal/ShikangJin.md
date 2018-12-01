@@ -1,4 +1,6 @@
-## Implemented Design Pattern: Factory Pattern
+### Implemented Design Pattern: Factory Pattern
+
+<br>
 
 ## Crazy Spartans, Oct 28
 
