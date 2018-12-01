@@ -1,3 +1,5 @@
+## Implemented Design Pattern: Factory Pattern
+
 ## Crazy Spartans, Oct 28
 
 #### **Team Member Name**
