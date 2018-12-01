@@ -1,24 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class DestroyByContact : MonoBehaviour, Subject {
     public GameObject explosion;
     private int score;
-    private GameController gameController;
+    private LinkedList<GameController> gameControllerList = new LinkedList<GameController>();
 
     public void addObserver(GameController gameControllerFound) {
-        this.gameController = gameControllerFound;
+        gameControllerList.AddLast(gameControllerFound);
     }
 
 
     public void removeObserver(GameController gameControllerDelete) {
+        gameControllerList.Remove(gameControllerDelete);
 
     }
 
     public void notifyObservers(int scoreChange) 
     {
-        this.gameController.updateScoreFromOutside(scoreChange);
+        foreach(GameController gameController in gameControllerList) {
+            gameController.updateScoreFromOutside(scoreChange);
+        }
     }
 
     // Use this for initialization
@@ -47,7 +51,10 @@ public class DestroyByContact : MonoBehaviour, Subject {
         }
 
         if (other.tag == "Player") {
-            gameController.GameOver();
+            foreach (GameController gameController in gameControllerList)
+            {
+                gameController.GameOver();
+            }
             Destroy(other.gameObject);
         }
     }
