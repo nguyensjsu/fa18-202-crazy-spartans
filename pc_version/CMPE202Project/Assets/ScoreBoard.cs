@@ -11,10 +11,17 @@ public class ScoreBoard
     private int bullet;
     public Bullet bulletClass;
 
+    private GameController gameController;
+
+    public ScoreBoard(GameController gameController) {
+        this.gameController = gameController;
+    }
+
     public void setScoreBoard(GameObject boardin, Text scorein, Text bulletin)
     {
         scoreboard = boardin;
         scoreClass = new Score();
+        scoreClass.attach(gameController);
         bulletClass = new Bullet();
         scoreClass.setScoreText(scorein);
         bulletClass.setBulletText(bulletin);

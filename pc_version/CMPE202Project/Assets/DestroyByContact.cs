@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyByContact : MonoBehaviour {
+public class DestroyByContact : MonoBehaviour
+{
 
     public GameObject explosion;
     public GameObject playerExplosion;
@@ -11,7 +12,7 @@ public class DestroyByContact : MonoBehaviour {
     private GameController gameController;
     public int healthBar;
 
-    void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
 
         if (other.tag != "Player" && other.tag != "Bolt") {
@@ -27,7 +28,6 @@ public class DestroyByContact : MonoBehaviour {
         Instantiate(explosion, transform.position, transform.rotation);
         Destroy(other.gameObject);
         healthBar--;
-        print(healthBar);
         if (healthBar == 0) {
             if (other.tag == "Bolt"){
                 gameController.addScore(score);
@@ -42,7 +42,7 @@ public class DestroyByContact : MonoBehaviour {
   
     }
     // Use this for initialization
-    void Start () {
+    public void Start () {
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
         if (gameControllerObject != null) {
             gameController = gameControllerObject.GetComponent<GameController>();
@@ -56,4 +56,8 @@ public class DestroyByContact : MonoBehaviour {
     void Update () {
         
     }
+
+    public void setHealthBar(int health) {
+        healthBar = health;
+    } 
 }

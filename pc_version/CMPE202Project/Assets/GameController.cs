@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 
 
-public class GameController : MonoBehaviour {
+public class GameController : MonoBehaviour, Observer {
     //public GameObject hazard;
     //public GameObject enemy;
     public Vector3 spawnValue;
@@ -35,6 +35,10 @@ public class GameController : MonoBehaviour {
 
     public ScoreBoard sb;
 
+    public Text bonus;
+  
+
+    
     // Use this for initialization
     void Start () {
         hazardType = 1;
@@ -45,11 +49,12 @@ public class GameController : MonoBehaviour {
         restartText.text = "";
         restart = false;
         startText.text = "";
+        bonus.text = "";
         new HazardOneFactory().setHazard(hazard1);
         new HazardTwoFactory().setHazard(hazard2);
         new HazardThreeFactory().setHazard(hazard3);
         new HazardFourFactory().setHazard(hazard4);
-        sb = new ScoreBoard();
+        sb = new ScoreBoard(this);
         sb.setScoreBoard(scoreboard,scoreText,bulletText);
         if (!start) {
             startText.text = "Press R to Start";
@@ -78,6 +83,11 @@ public class GameController : MonoBehaviour {
 
     public int getBullet() {
         return sb.getBullet();
+    }
+
+    public void update()
+    {
+        bonus.text = "congradulation!";
     }
 
     IEnumerator SpawnWaves() {
@@ -127,11 +137,12 @@ public class GameController : MonoBehaviour {
                 //                               spawnValue.z);
                 Instantiate(factory.createHazard(), hazardSpawnPosition, hazardSpawnRotation);
                 //Instantiate(enemy, enemySpawnPosition, hazardSpawnRotation);
-                yield return new WaitForSeconds(spawnWait);
+
                 if (gameOver) {
                     restart = true;
                     restartText.text = "Press 'R' to Restart";
                 }
+                yield return new WaitForSeconds(spawnWait);
             }
 
 
