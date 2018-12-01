@@ -1,5 +1,5 @@
 ### Implemented Design Pattern: Factory Pattern
-
+Relative Files: GameController.cs, HazardFactory.cs, HazardOneFactory.cs, HazardTwoFactory.cs, HazardThreeFactory.cs, HazardFourFactory.cs in cmpe202Project/Asset folder
 <br>
 
 ## Crazy Spartans, Oct 28
