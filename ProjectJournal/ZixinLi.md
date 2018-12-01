@@ -1,3 +1,11 @@
+## Design Pattern : Facade pattern
+
+#### Use Facade pattern to implement a scoreboard, which displays score and bullet numbers for the player.
+
+- Files: Bullet.cs, DestroyByContact.cs, GameController.cs, PlayerMove.cs, Score.cs, ScoreBoard.cs
+
+<br>
+
 ## Crazy Spartans, Oct 28
 
 #### **Team Member Name**
