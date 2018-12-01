@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameController : MonoBehaviour {
+public class GameController : MonoBehaviour, Observer {
 
     public GameObject hazard;
     public Vector3 spawnValue;
@@ -41,10 +41,16 @@ public class GameController : MonoBehaviour {
         scoreText.text = "Score: " + score;
     }
 
+    public void updateScoreFromOutside (int value) {
+        addScore(value);
+    }
+
     public void addScore(int value) {
         score += value;
         UpdateScore();
     }
+
+
     IEnumerator SpawnWaves() {
         yield return new WaitForSeconds(startWart);
 

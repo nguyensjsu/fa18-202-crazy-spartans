@@ -2,10 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyByContact : MonoBehaviour {
+public class DestroyByContact : MonoBehaviour, Subject {
     public GameObject explosion;
     private int score;
     private GameController gameController;
+
+    public void addObserver(GameController gameControllerFound) {
+        this.gameController = gameControllerFound;
+    }
+
+
+    public void removeObserver(GameController gameControllerDelete) {
+
+    }
+
+    public void notifyObservers(int scoreChange) 
+    {
+        this.gameController.updateScoreFromOutside(scoreChange);
+    }
 
     // Use this for initialization
     void Start()
@@ -14,7 +28,7 @@ public class DestroyByContact : MonoBehaviour {
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
         if (gameControllerObject != null)
         {
-            gameController = gameControllerObject.GetComponent<GameController>();
+            addObserver(gameControllerObject.GetComponent<GameController>());
         }
 
         if (gameControllerObject == null) {
@@ -27,7 +41,7 @@ public class DestroyByContact : MonoBehaviour {
         if (other.tag == "3DBolt")
         {
             Instantiate(explosion, transform.position, transform.rotation);
-            gameController.addScore(score);
+            notifyObservers(score);
             Destroy(gameObject);
             Destroy(other.gameObject);
         }
