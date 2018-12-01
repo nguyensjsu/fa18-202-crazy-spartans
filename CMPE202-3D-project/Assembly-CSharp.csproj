@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{7B150F32-695F-3B56-6FFE-DE4743969989}</ProjectGuid>
+    <ProjectGuid>{5FA3F925-831F-B923-5339-306072A9B6CB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -100,6 +100,7 @@
     <Compile Include="Assets\Mezanix\MezanixFX_Free_1_1\Demo\CameraNavigator.cs" />
     <Compile Include="Assets\Mezanix\MezanixFX_Free_1_1\Demo\GetActivePArticleSystemName.cs" />
     <Compile Include="Assets\Mover.cs" />
+    <Compile Include="Assets\Observer.cs" />
     <Compile Include="Assets\SpaceJourney\Plugins\ColorSuite\ColorSuite.cs" />
     <Compile Include="Assets\SpaceJourney\Plugins\Glitch\AnalogGlitch.cs" />
     <Compile Include="Assets\SpaceJourney\Plugins\Glitch\DigitalGlitch.cs" />
@@ -109,6 +110,7 @@
     <Compile Include="Assets\SpaceJourney\Plugins\Space Ship\ParticleFollow.cs" />
     <Compile Include="Assets\SpaceJourney\Plugins\Space Ship\SpaceshipController.cs" />
     <Compile Include="Assets\SpaceJourney\Plugins\Time Control\TimeScale.cs" />
+    <Compile Include="Assets\Subject.cs" />
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
     <None Include="Assets\SpaceJourney\Plugins\Glitch\Shader\AnalogGlitch.shader" />
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
@@ -132,16 +134,16 @@
     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Alpha-Diffuse TintColor.shader" />
     <None Include="Assets\Mezanix\MezanixFX_Free_1_1\0_Documentation\ParticleSystemsList.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/labuser/New Unity Project- real space journey/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/labuser/New Unity Project- real space journey -v1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/labuser/New Unity Project- real space journey/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/labuser/New Unity Project- real space journey -v1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/labuser/New Unity Project- real space journey/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/labuser/New Unity Project- real space journey -v1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/labuser/New Unity Project- real space journey/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/labuser/New Unity Project- real space journey -v1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -380,7 +382,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A57899AB-35D9-B7F0-2B47-48490AD2E4F9}</Project>
+      <Project>{E01CEAB4-79CF-2F0C-9C90-F2EEA6871A76}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

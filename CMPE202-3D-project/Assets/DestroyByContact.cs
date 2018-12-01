@@ -1,11 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-public class DestroyByContact : MonoBehaviour {
+public class DestroyByContact : MonoBehaviour, Subject {
     public GameObject explosion;
     private int score;
-    private GameController gameController;
+    private LinkedList<GameController> gameControllerList = new LinkedList<GameController>();
+
+    public void addObserver(GameController gameControllerFound) {
+        gameControllerList.AddLast(gameControllerFound);
+    }
+
+
+    public void removeObserver(GameController gameControllerDelete) {
+        gameControllerList.Remove(gameControllerDelete);
+
+    }
+
+    public void notifyObservers(int scoreChange) 
+    {
+        foreach(GameController gameController in gameControllerList) {
+            gameController.updateScoreFromOutside(scoreChange);
+        }
+    }
 
     // Use this for initialization
     void Start()
@@ -14,7 +32,7 @@ public class DestroyByContact : MonoBehaviour {
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
         if (gameControllerObject != null)
         {
-            gameController = gameControllerObject.GetComponent<GameController>();
+            addObserver(gameControllerObject.GetComponent<GameController>());
         }
 
         if (gameControllerObject == null) {
@@ -27,13 +45,16 @@ public class DestroyByContact : MonoBehaviour {
         if (other.tag == "3DBolt")
         {
             Instantiate(explosion, transform.position, transform.rotation);
-            gameController.addScore(score);
+            notifyObservers(score);
             Destroy(gameObject);
             Destroy(other.gameObject);
         }
 
         if (other.tag == "Player") {
-            gameController.GameOver();
+            foreach (GameController gameController in gameControllerList)
+            {
+                gameController.GameOver();
+            }
             Destroy(other.gameObject);
         }
     }

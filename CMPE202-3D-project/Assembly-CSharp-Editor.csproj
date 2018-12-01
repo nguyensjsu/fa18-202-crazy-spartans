@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{FE0B0D8E-CF2C-FEA2-C86D-1D11080CAFBB}</ProjectGuid>
+    <ProjectGuid>{4A7C2619-43A3-F49D-1EBD-DBDB6B7F5E23}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -83,16 +83,16 @@
     <Compile Include="Assets\Mezanix\MezanixFX_Free_1_1\Editor\HitCI.cs" />
     <Compile Include="Assets\Mezanix\MezanixFX_Free_1_1\Editor\ParticleSystemSpawnerCI.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/labuser/New Unity Project- real space journey/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/labuser/New Unity Project- real space journey -v1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/labuser/New Unity Project- real space journey/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/labuser/New Unity Project- real space journey -v1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/labuser/New Unity Project- real space journey/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/labuser/New Unity Project- real space journey -v1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/labuser/New Unity Project- real space journey/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/labuser/New Unity Project- real space journey -v1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -338,7 +338,7 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="JMOAssets">
-      <HintPath>/Users/labuser/New Unity Project- real space journey/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+      <HintPath>/Users/labuser/New Unity Project- real space journey -v1/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/labuser/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -388,11 +388,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A57899AB-35D9-B7F0-2B47-48490AD2E4F9}</Project>
+      <Project>{E01CEAB4-79CF-2F0C-9C90-F2EEA6871A76}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{7B150F32-695F-3B56-6FFE-DE4743969989}</Project>
+      <Project>{5FA3F925-831F-B923-5339-306072A9B6CB}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
