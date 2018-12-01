@@ -81,4 +81,4 @@ Mengxia Li
 •	Need to make Ad Vedio for the game.
 
 4.XP Core Value (Courage)
-•	I got a lot of encouragement in the process of this project。
+•	I got a lot of encouragement in the process of this project.
